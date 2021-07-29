@@ -1,0 +1,30 @@
+{
+  "name": "tl-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot using telegraf lib, for mathematics operations, Wikipedia articles and definitions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johan809/tl-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johan809/tl-bot/issues"
+  },
+  "homepage": "https://github.com/Johan809/tl-bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "google-dictionary-api": "^1.0.8",
+    "parse-data-url": "^4.0.1",
+    "telegraf": "^4.4.1",
+    "wikijs": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
